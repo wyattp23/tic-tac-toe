@@ -24,4 +24,8 @@ describe 'A Tic Tac Toe board' do
     full_board.reset
     expect(full_board).to be_empty
   end
+
+  it "is full" do
+    expect(full_board).to be_full
+  end
 end
