@@ -3,7 +3,12 @@
 require_relative 'board'
 
 class Game
-  def board
 
+  def initialize(board=nil)
+    @board = board
+  end
+  
+  def board
+    @board
   end
 end
