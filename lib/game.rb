@@ -23,4 +23,8 @@ class Game
     @over
   end
 
+  def tie?
+    @board.full?
+  end
+
 end
