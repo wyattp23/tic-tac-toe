@@ -19,5 +19,9 @@ describe 'A Tic Tac Toe board' do
     board.place(:x, :top, :right)
     expect(board.token_at(:top,:right)).to eq(:x)
   end
-  
+
+  it "resets the board" do
+    full_board.reset
+    expect(full_board).to be_empty
+  end
 end
