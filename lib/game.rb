@@ -27,4 +27,6 @@ class Game
     @board.full?
   end
 
+  #running out of time, going to move on to step 2
+
 end
